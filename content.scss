@@ -1,0 +1,51 @@
+
+h2 {
+  z-index: 100;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  left: 240px;
+  top: 50px;
+  margin: 0;
+}
+#products {
+    section {
+        display: inline-block;
+    padding: 15px;
+    padding-top: 35px;
+    object-fit: contain;
+    position: relative;
+    }
+
+    img {
+        width:340px;
+        height:200px;
+    }
+}
+
+#loop {
+    img {
+        width:35px;
+        height:40px;
+        }
+}
+
+.flex {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    list-style-type: none;
+}
+
+#ties-section {
+    @extend .flex;
+}
+
+#weekly-section {
+    @extend .flex;
+}
+
+.bottom {
+    font-family: 'Titillium Web', sans-serif;
+}

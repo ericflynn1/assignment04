@@ -1,0 +1,209 @@
+$background: #f4f4f4;
+$button: #33a1ff;
+// #flex-container {
+//     display:flex;
+//     flex-direction: row;
+//     align-content: center;
+//     font-family: 'Titillium Web', sans-serif;
+//     list-style-type: none;
+// }
+.graybox {
+    background-color: $background;
+    font-family: 'Titillium Web', sans-serif;
+    height: 450px;
+    figcaption{
+        text-align: center;
+    }
+}
+.whitebox {
+    font-family: 'Titillium Web', sans-serif;
+    height: 300px;
+}
+#collection {
+    display: flex;
+    align-items: row;
+    width: 550px;
+    height: 100px;
+    justify-content: space-between;
+    padding-right: 0;
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-top: 22px;
+}
+
+#cart-bla {
+    margin-right: 10px;
+}
+#magnify-bl {
+    margin-right: 20px;
+}
+.bottom {
+    height: 175px;
+    list-style-type: none;
+}
+.bottom2 {
+    height: 175px;
+    background-color: $background;
+    list-style-type: none; 
+}
+#register {
+    display: flex;
+    align-items: row;
+    height: 25px;
+    font-size: 10px;
+    margin: 0 auto;
+    color: $background;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 0 auto;
+    padding-top: 23px;
+}
+#ties {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    align-items: row;
+    height: 250px;
+}
+#slogan {
+    display: flex;
+    align-items: row;
+    width: 100%;
+    height: 40px;
+    font-size: 2.8em;
+    padding-left: 275px;
+}
+#products {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: row;
+    align-content: center;
+    justify-content: space-between;
+}
+#story-container {
+    display: flex;
+    height: 50px;
+}
+#story {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    font-style: italic;
+    font-size: 1.5em;
+    align-items: row;
+}
+#story2 {
+    display: flex;
+    padding-left: 200px;
+    flex-wrap: wrap;
+    padding-left: 185px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    font-size: 1.1em;
+    align-items: row;
+}
+#view-container {
+    display: flex;
+    height: 200px;
+    padding-top: 10px;
+}
+#viewstory {
+    display: flex;
+    align-text: center;
+    padding-left: 500px;
+    color: $button;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+#weekly {
+    display: block;
+    width: 275px;
+    font-size: 15px;
+    padding: 15px;
+}
+#loop {
+    display: block;
+    width: 275px;
+    padding: 15px;
+    font-size: 15px;
+}
+#quarterly {
+    display: block;
+    width: 250px;
+    padding: 15px;
+}
+.bot {
+background-color: $background;
+    font-family: 'Titillium Web', sans-serif;
+    height: 250px;
+    list-style-type: none;
+    figcaption{
+        text-align: center;
+    }
+}
+.subscribe {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 0;
+    background: $button;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+#styleguide {
+    display: block;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 15px;
+    width: 250px;
+}
+.shopby {
+    display: block;
+    font-size: 1.1em;
+    list-style-type: none;
+}
+#contactusheader {
+    display: block;
+    float: right;
+    text-align: row;
+    padding-left: 500px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #a2afc0;
+    color: #FFF;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+#contactinfo {
+    display: block;
+    float: right;
+    align-items: row;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #a2afc0;
+    color: #FFF;
+    padding-left: 200px;
+    list-style-type: none;
+}
+.contactbutton {
+    display: inline-block;
+    padding: 3px 10px;
+    background: $button;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    float: left;
+    list-style-type: none;
+}
+
+@import 'header';
+@import 'content';
+@import 'footer';
